@@ -6,7 +6,7 @@
 
 Tudo organizado para facilitar o deploy e a manutenção:
 
-````Cameras/
+```Cameras/
 ├─ public/
 │   ├─ index.html
 │   ├─ css/
@@ -41,7 +41,7 @@ vercel
 git add .
 git commit -m "Atualização"
 vercel --prod
-
+```
 ## Tecnologias
 
 ✨ HTML  
