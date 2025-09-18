@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Monitor de Câmeras - TV 55"</title>
+    <title>Monitororamento de Câmeras"</title>
     <style>
         * {
             margin: 0;
@@ -21,7 +21,7 @@
         
         .container {
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
+            grid-template-columns: repeat(3, 1fr);
             grid-template-rows: repeat(3, 1fr);
             gap: 20px;
             height: 100%;
@@ -114,6 +114,23 @@
             <div class="camera-label">Câmera 6</div>
             <div class="timestamp" id="time-6">00:00:00</div>
         </div>
+         <div class="camera">
+            <iframe src=" https://egov.santos.sp.gov.br/santosmapeada/css/img/cameras/cam1687/snap_c1.jpg"></iframe>
+            <div class="camera-label">Câmera 7</div>
+            <div class="timestamp" id="time-7">00:00:00</div>
+        </div>
+          <div class="camera">
+            <iframe src=" https://egov.santos.sp.gov.br/santosmapeada/css/img/cameras/cam1753/snap_c1.jpg"></iframe>
+            <div class="camera-label">Câmera 8</div>
+            <div class="timestamp" id="time-8">00:00:00</div>
+        </div>
+        <div class="camera">
+            <iframe src="https://egov.santos.sp.gov.br/santosmapeada/css/img/cameras/cam1597/snap_c1.jpg"></iframe>
+            <div class="camera-label">Câmera 9</div>
+            <div class="timestamp" id="time-9">00:00:00</div>
+        </div>
+        
+
     </div>
 
     <script>
@@ -122,7 +139,7 @@
             const now = new Date();
             const timeString = now.toLocaleTimeString('pt-BR');
             
-            for (let i = 1; i <= 6; i++) {
+            for (let i = 1; i <= 9; i++) {
                 document.getElementById('time-' + i).textContent = timeString;
             }
         }
