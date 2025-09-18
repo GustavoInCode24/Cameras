@@ -1,6 +1,6 @@
-# Cameras
+# Câmeras
 
-🎥 Cameras é um projeto web desenvolvido para monitoramento de múltiplas câmeras da Prefeitura de Santos, oferecendo uma interface simples, prática e visualmente organizada. Ideal para TVs grandes ou monitores de controle, o sistema mantém todas as câmeras centralizadas e atualizadas em tempo real, facilitando a visualização e o acompanhamento das imagens.
+🎥 Câmeras é um projeto web desenvolvido para monitoramento de múltiplas câmeras da Prefeitura de Santos, oferecendo uma interface simples, prática e visualmente organizada. Ideal para TVs grandes ou monitores de controle, o sistema mantém todas as câmeras centralizadas e atualizadas em tempo real, facilitando a visualização e o acompanhamento das imagens.
 
 ## Estrutura do Projeto
 
