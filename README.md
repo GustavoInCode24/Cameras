@@ -56,4 +56,5 @@ vercel --prod
 
 ## Contribuidores
 
-- Gustavo InCode24
+- Gustavo Lemos
+  
