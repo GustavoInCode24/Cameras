@@ -6,7 +6,7 @@
 
 Tudo organizado para facilitar o deploy e a manutenção:
 
-Cameras/
+````Cameras/
 ├─ public/
 │   ├─ index.html
 │   ├─ css/
