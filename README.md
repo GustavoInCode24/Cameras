@@ -15,19 +15,21 @@ Cameras/
 │       └─ cameras.js
 ├─ .gitignore
 └─ vercel.json
-
+```
 ## Como Colocar no Ar 🌐
-
+```
 1. Clone o repositório e entre na pasta:
 
 git clone https://github.com/GustavoInCode24/Cameras.git
 cd Cameras
-
+```
+```
 2. Instale o Vercel CLI (se ainda não tiver):
 
 npm i -g vercel
 vercel login
-
+```
+```
 3. Faça o deploy:
 
 cd Cameras
@@ -35,7 +37,8 @@ vercel
 
 - Quando perguntado pelo diretório raiz, digite `public`.
 - Após alguns segundos, você terá a URL do seu site no ar.
-
+```
+```
 4. Para atualizações futuras, basta:
 
 git add .
@@ -54,7 +57,6 @@ vercel --prod
   &nbsp;&nbsp;&nbsp;
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vercel/vercel-original.svg" width="50"/>
 </p>
-
 
 
 
